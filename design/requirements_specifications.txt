@@ -1,0 +1,25 @@
+--------------
+User Requirements 
+--------------
+
+(1) Hard Realtime operation
+    -jitter=?
+    -latency=?
+
+(2) Interface car & tail motors
+    -pwm
+    -servo motors
+
+(3) Read & log sensor data
+    -UART comm >250Hz
+    -GPS: NMEA @10Hz
+    -Logging on Jetson
+
+(4) Communicate to host
+    -wifi + ssh? or xbee?
+
+
+
+----------------
+Funtional Specifications
+-----------------
