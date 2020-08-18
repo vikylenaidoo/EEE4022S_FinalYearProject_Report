@@ -1,5 +1,41 @@
-*Project aim
+Project aim/ Objectives
+----------------------------
+*problems to be investigated
+    Develop a control system framework for the Dima robot, using an existing IMU+GNSS sensor board and an Nvidia Jetson Nano board for data processing and logging. Firmware would need to be developed for the sensor board, and the Jetson Nano needs to operate with real time capabilities, and wireless communication to a host PC needs to be implemented to allow human input commands to be sent to the control system.
 
-*Limitations
+*purpose of the study
+    The Dima robot emulates the movement of a cheetah, by improving maneouverability with the use of a tail action. There is an existing control system running on an STM32F4, but a new control system needs to be designed to exploit the processing power of the Jetson Nano in analysing and processing the gathered sensor data.
 
-*Constraints
+Scope/Limitations
+----------------------
+The focus of this project is only on developing the control system framework required to implement a controller for the Dima robot. It is limited to gathering and logging the sensor data, providing means to actuate the wheel and tail motors. The design and implementation of a working controller is not included in this study.
+
+
+Constraints
+------------------
+-time constraint of 12 weeks
+-use of existing sensor board with STM32F4 microcontroller
+-use of Nvidia Jetson Nano
+
+
+
+User Requirements 
+--------------
+
+(1) Hard Realtime operation
+    -jitter
+    -latency
+
+(2) Interface car & tail motors
+    -pwm
+    -servo motors
+
+(3) Read & log sensor data
+    -UART comm >250Hz
+    -GPS: NMEA @10Hz
+    -Logging on Jetson
+
+(4) Communicate to host pc
+    -wireless
+
+(5) MOdular Design
