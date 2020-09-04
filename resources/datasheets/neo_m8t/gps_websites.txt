@@ -1,0 +1,3 @@
+https://www.trimble.com/OEM_ReceiverHelp/V4.44/en/NMEA-0183messages_MessageOverview.html
+
+https://www.gpsworld.com/what-exactly-is-gps-nmea-data/

@@ -1,0 +1,22 @@
+
+
+-Do Yeou previous firmware sensor board
+
+-gnss message structure
+    -gnss constellations
+    -nmea vs ubx
+
+
+Questions to answer:
+------------------------
+-realtime requirement in robotic control
+    -what is realtime requirements means?
+    -acceptable jitter and latency?
+        -define acceptable jitter
+        -latency should be consistent < 1ms
+    -common methods of realtime os ?
+        -xenomai 
+        -preempt rt
+        
+-ROS libraries for robotic controls
+-exsting control frameworks

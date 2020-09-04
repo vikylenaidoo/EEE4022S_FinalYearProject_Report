@@ -1,0 +1,34 @@
+SENSORBOARD FIRMWARE
+----------------------
+-existing hardware
+-review Do Yeou's firmware
+-program flowchart
+-call plot
+
+-SPI interface driver
+
+-BMX055 API/driver
+    -configure accelerometer
+    -configure gyroscope
+    -configure magnetometer
+    -reading accelerometer, gyro, mag
+    -calculating read values
+
+-BMP280 api-driver
+    -configure
+    -read data
+
+-uart interface driver
+    
+-neo-m8t api/driver (gnss)
+    -NMEA message structure
+    -read through uart and dma
+
+-create data packet
+    -acc, gyro, mag, press, temp, gnss
+
+
+
+JETSON NANO REALTIME OPERATION
+-------------------------------
+
