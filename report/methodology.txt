@@ -19,9 +19,11 @@ SENSORBOARD FIRMWARE
     -read data
 
 -uart interface driver
+    -115200 bd
+    -uart connected with dma
     
 -neo-m8t api/driver (gnss)
-    -NMEA message structure
+    -UBX message structure
     -read through uart and dma
 
 -create data packet
@@ -31,4 +33,5 @@ SENSORBOARD FIRMWARE
 
 JETSON NANO REALTIME OPERATION
 -------------------------------
-
+-build L4T with realtime patch
+-
