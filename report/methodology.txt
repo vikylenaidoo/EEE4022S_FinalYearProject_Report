@@ -23,15 +23,20 @@ SENSORBOARD FIRMWARE
     -uart connected with dma
     
 -neo-m8t api/driver (gnss)
-    -UBX message structure
+    -UBX message structure (ubx-nav-pvt)
+    -100 bytes (incl start and checksum)
     -read through uart and dma
 
 -create data packet
     -acc, gyro, mag, press, temp, gnss
 
-
+-ext interrupt for data request
+    -pin d10
 
 JETSON NANO REALTIME OPERATION
 -------------------------------
 -build L4T with realtime patch
 -
+
+-connect uart to ttyTHS1: rx pin 10
+-connect gpio pin 40 for request line
